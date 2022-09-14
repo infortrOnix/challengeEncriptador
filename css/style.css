@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    background-color: aqua;
+   
+}
+
+main{
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+}
+.encriptar{
+    width: 70%;
+    vertical-align:top;
+    background: grey;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.desencriptar{
+
+    width: 25%;
+    padding: 10px;
+    background: yellow;
+    display: inline-block;
+    
+    
+}
+
+.desencriptar img{
+    width: 150px;
+    display: block;
+   
+}
+
+footer{
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+}
