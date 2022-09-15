@@ -5,45 +5,160 @@
     
 }
 
+body{
+    position: relative;
+    max-width: 1440px;
+   
+    margin: 0 auto;
+    background-color:#f3f5fc;
+    
+}
+
 header{
     width: 100%;
     margin: 0;
-    background-color: aqua;
+    padding: 15px;
+    
    
 }
+
+
 
 main{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: blueviolet;
+    background: #F3F5FC;
 }
+
 .encriptar{
+   
     width: 70%;
-    vertical-align:top;
-    background: grey;
-    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    
+       
+}
+
+.encriptar textarea{
+    width: 85%;
+    height: 288px;
+    left: 240px;
+    top: 168px;
     padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #0A3871;
+    border-radius: 10px;
+
+}
+
+.encriptar img{
+
+    width: 200px;
     
 }
+
+
 
 .desencriptar{
-
-    width: 25%;
-    padding: 10px;
-    background: yellow;
-    display: inline-block;
     
+    width: 380px;
+    height: 550px;
+    left: 1000px;
+    top: 40px;
+    margin:10px;
+   
+    
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+      
     
 }
+
+.desencriptar textarea{
+    
+    width: 95%;
+    height: 160px;
+    font-family: 'Inter';
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #495057;
+    border-radius: 10px;
+}
+
+
 
 .desencriptar img{
-    width: 150px;
-    display: block;
-   
+  max-width: 250px;
+ 
 }
 
+
 footer{
-    background-color: brown;
+    background-color:#205488 ;
     width: 100%;
     text-align: center;
 }
+
+button{
+    margin: 10px;
+    padding: 24px;
+    gap: 8px;
+    width: 250px;
+    height: 67px;
+    border: none;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+
+}
+
+button:hover{
+    background: #F3F5FC;
+    border: #0A3871 1px solid;
+    color: #0A3871;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+a , h3{
+    text-decoration: none;
+    color: #F3F5FC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+h6{
+    color: #0A3871;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+
+p{
+    color: #F3F5FC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
